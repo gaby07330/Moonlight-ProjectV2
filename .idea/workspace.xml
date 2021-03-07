@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64e2df4f-393c-435d-9370-b2fd04e3228d" name="Default Changelist" comment="Environement de travail avec Docker / Symfony / React" />
+    <list default="true" id="64e2df4f-393c-435d-9370-b2fd04e3228d" name="Default Changelist" comment="Environement de travail avec Docker / Symfony / React">
+      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/si_moon/assets/components/Navbar/Navbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/si_moon/assets/components/Navbar/Navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/si_moon/assets/components/Navbar/NavbarJS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/si_moon/assets/components/Navbar/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/si_moon/assets/images/logoMoon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/si_moon/assets/pages/accueil/Accueil.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/si_moon/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/assets/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/si_moon/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/assets/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/si_moon/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/si_moon/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/si_moon/src/Controller/AppController.php" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/src/Controller/AppController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/si_moon/templates/app/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/templates/app/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/si_moon/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/templates/base.html.twig" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,11 +33,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="composer.json" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -128,7 +155,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1mQShFECsFEkIn9CA9flGX6RQsi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -139,12 +168,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/si_moon/assets/images" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.grazie" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/si_moon/assets/images" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="false" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="64e2df4f-393c-435d-9370-b2fd04e3228d" name="Default Changelist" comment="" />
@@ -156,7 +190,14 @@
       <workItem from="1609520668216" duration="477000" />
       <workItem from="1609521160072" duration="19087000" />
       <workItem from="1609594432999" duration="8408000" />
-      <workItem from="1609603801895" duration="624000" />
+      <workItem from="1609603801895" duration="1511000" />
+      <workItem from="1611584628734" duration="21000" />
+      <workItem from="1611606604827" duration="192000" />
+      <workItem from="1611681749351" duration="2511000" />
+      <workItem from="1614762306491" duration="6742000" />
+      <workItem from="1614770189327" duration="2435000" />
+      <workItem from="1614788807278" duration="4366000" />
+      <workItem from="1615110581051" duration="2064000" />
     </task>
     <task id="LOCAL-00001" summary="First docker-compose (symfony / mysql / phpmyadmin)">
       <created>1609543522914</created>
@@ -179,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609603590621</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Environement de travail avec Docker / Symfony / React">
+      <created>1609604786101</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609604786101</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
