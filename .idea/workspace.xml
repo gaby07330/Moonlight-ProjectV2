@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64e2df4f-393c-435d-9370-b2fd04e3228d" name="Default Changelist" comment="Environement de travail avec Docker / Symfony / React">
-      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/si_moon/assets/components/Navbar/Navbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/si_moon/assets/components/Navbar/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/si_moon/assets/components/Navbar/NavbarJS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/si_moon/assets/components/Navbar/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/si_moon/assets/images/logoMoon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/si_moon/assets/pages/accueil/Accueil.jsx" afterDir="false" />
+    <list default="true" id="64e2df4f-393c-435d-9370-b2fd04e3228d" name="Default Changelist" comment="Mise en place de la page d'accueil avec CSS">
+      <change afterPath="$PROJECT_DIR$/si_moon/assets/images/wallpaperAccueil.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/si_moon/public/sound/old.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/si_moon/public/sound/ost.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Moonlight Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Moonlight Project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/si_moon/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/assets/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/si_moon/assets/components/Navbar/Navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/assets/components/Navbar/Navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/si_moon/assets/components/Navbar/NavbarJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/assets/components/Navbar/NavbarJS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/si_moon/assets/pages/accueil/Accueil.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/assets/pages/accueil/Accueil.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/si_moon/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/assets/styles/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/si_moon/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/si_moon/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/si_moon/src/Controller/AppController.php" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/src/Controller/AppController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/si_moon/templates/app/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/templates/app/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/si_moon/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/si_moon/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,14 +165,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/si_moon/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/si_moon/assets/sound" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.grazie" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/si_moon/assets/sound" />
+      <recent name="$PROJECT_DIR$/si_moon/assets/components/Carousel/images" />
+      <recent name="$PROJECT_DIR$/si_moon/assets/components/Carousel/css" />
       <recent name="$PROJECT_DIR$/si_moon/assets/images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/si_moon/public/sound" />
+      <recent name="$PROJECT_DIR$/si_moon/public" />
+      <recent name="$PROJECT_DIR$/si_moon/assets/components/Lecteur" />
+      <recent name="$PROJECT_DIR$/si_moon/assets/components" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="false" transferred="true" />
@@ -197,7 +203,10 @@
       <workItem from="1614762306491" duration="6742000" />
       <workItem from="1614770189327" duration="2435000" />
       <workItem from="1614788807278" duration="4366000" />
-      <workItem from="1615110581051" duration="2064000" />
+      <workItem from="1615110581051" duration="11135000" />
+      <workItem from="1615128181790" duration="1838000" />
+      <workItem from="1615130477575" duration="20033000" />
+      <workItem from="1615213151044" duration="9523000" />
     </task>
     <task id="LOCAL-00001" summary="First docker-compose (symfony / mysql / phpmyadmin)">
       <created>1609543522914</created>
@@ -227,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609604786101</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Mise en place de la page d'accueil avec CSS">
+      <created>1615112991900</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615112991900</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +280,8 @@
     </ignored-roots>
     <MESSAGE value="First docker-compose (symfony / mysql / phpmyadmin)" />
     <MESSAGE value="Environement de travail avec Docker / Symfony / React" />
-    <option name="LAST_COMMIT_MESSAGE" value="Environement de travail avec Docker / Symfony / React" />
+    <MESSAGE value="Mise en place de la page d'accueil avec CSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mise en place de la page d'accueil avec CSS" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

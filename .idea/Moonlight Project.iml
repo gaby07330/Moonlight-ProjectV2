@@ -111,5 +111,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="all" level="application" />
+    <orderEntry type="library" name="imagesloaded" level="application" />
+    <orderEntry type="library" name="gsap" level="application" />
   </component>
 </module>

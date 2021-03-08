@@ -15,12 +15,14 @@ html {
     transition: 1000ms all cubic-bezier(0.19, 1, 0.22, 1);
     transform: translateX(-100%);
     left: 60px;
+    z-index: 2;
 }
 
 #menu.expanded {
     transform: translateX(0%);
     left: 0px;
-    z-index: 2;
+    z-index: 3;
+
 }
 
 .menu-inner {
@@ -34,7 +36,8 @@ html {
     z-index: -1;
     right: 60px;
     transform: translateX(100%);
-    height: 100%;
+
+    height: 1200px;
     position: absolute;
 }
 
@@ -88,11 +91,10 @@ ul li {
 }
 
 h2 {
-    position: absolute;
     left: 50%;
     color: #fff;
     margin: 0;
-    font-size: 16px;
+    font-size: 22px !important;
     font-family: sans-serif;
     font-weight: 100;
 }

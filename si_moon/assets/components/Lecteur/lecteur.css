@@ -1,0 +1,39 @@
+#rewind-icon {
+    height: 30px !important;
+    padding-right: 3% !important;
+}
+
+#play-icon {
+    height: 60px !important;
+    padding-right: 3% !important;
+}
+
+#forward-icon {
+    height: 30px !important;
+}
+
+.top {
+    width: 100% !important;
+}
+
+.bottom {
+    text-align: center;
+}
+
+.next {
+    font-size: 100px !important;
+}
+
+
+.audio-player {
+    /*background: url('');*/
+    /*height: 10rem;*/
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#play {
+    cursor: pointer;
+}

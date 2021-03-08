@@ -1,14 +1,11 @@
 import React from 'react';
 
 import './Accueil.css';
+import Carousel from "../../components/Carousel/Carousel";
 
 function Accueil(props) {
     return (
-        <div className="pt-5">
-            <h1 className="pt-4 titleMoon">MOONLIGHT PROJECT </h1>
-        </div>
-
-
+        <Carousel/>
     );
 }
 

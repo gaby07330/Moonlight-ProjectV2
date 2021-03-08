@@ -8,10 +8,20 @@
     color: #eefffd;
 }
 
+.imgLogo {
+    z-index: 2;
+}
+
 .moonpadding {
-    padding-left: 5%;
+    padding-left: 7%;
 }
 
 .moonAjust {
     padding-left: 5%;
+}
+
+@media (max-width: 991px) {
+    .col-12.col-sm-12.col-md-12.col-lg-9.col-xl-10 {
+        padding-left: 15%;
+    }
 }
