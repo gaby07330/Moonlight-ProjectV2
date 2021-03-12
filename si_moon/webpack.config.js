@@ -78,6 +78,7 @@ module.exports = Encore.getWebpackConfig();
 
 const path = require('path');
 
+/*
 module.exports = {
     entry: './build/src/index.js',
     output: {
@@ -121,3 +122,4 @@ module.exports = {
     }
 };
 
+*/

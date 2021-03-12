@@ -22,23 +22,18 @@ const App = () => {
         +
         <main className="container-fluid">
           <div className="row">
-
             <div className="  col-lg-3 col-xl-2 d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex
           justify-content-center order-1 justify-content-sm-center order-sm-1 justify-content-md-center
           order-md-1 justify-content-lg-start order-lg-1 justify-content-xl-start order-xl-1 pt-4 moonpadding"
             >
               <img className="imgLogo" src={logo} alt="logoMoon"/>
-
             </div>
-
             <div
                 className="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-10 d-md-flex
                 order-3 order-sm-2 order-md-2 order-lg-2 order-xl-2 moonAjust">
               <Switch>
                 <Route path="/lec" component={AudioPlayerPage}/>
                 <Route path="/" component={Accueil}/>
-
-
               </Switch>
             </div>
             <div

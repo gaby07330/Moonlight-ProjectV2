@@ -1,5 +1,6 @@
-.titleAdjust {
-    padding-top: 2%;
+
+.contentCarousel {
+    width: inherit;
 }
 
 .cb-slideshow,
@@ -394,4 +395,7 @@
 .no-cssanimations .cb-slideshow li span {
     opacity: 1;
 }
+
+
+
 

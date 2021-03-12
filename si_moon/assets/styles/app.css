@@ -2,6 +2,11 @@
     color: white;
 }
 
+h1 {
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+
+}
+
 .titleMoon {
     font-family: 'Anton', sans-serif;
     letter-spacing: 8px;
@@ -12,15 +17,31 @@
     z-index: 2;
 }
 
-.moonpadding {
-    padding-left: 7%;
-}
-
 .moonAjust {
     padding-left: 5%;
 }
 
-@media (max-width: 991px) {
+/*MEDIA QUERIES LOGO MOON*/
+@media all and (max-width: 994px) {
+    .moonpadding {
+        padding-left: 15%;
+    }
+}
+
+@media all and (min-width: 994px) and (max-width: 1200px) {
+    .moonpadding {
+        padding-left: 13%;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .moonpadding {
+        padding-left: 8%;
+    }
+}
+
+
+@media (max-width: 994px) {
     .col-12.col-sm-12.col-md-12.col-lg-9.col-xl-10 {
         padding-left: 15%;
     }

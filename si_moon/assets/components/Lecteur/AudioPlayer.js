@@ -14,7 +14,8 @@ let rearrangedPlayer = [
                     width: "33%",
                     justifyContent: "center",
                     filter: "invert(100%)",
-                    opacity: "0.4"
+                    opacity: "0.8",
+                    color: "#ffffff"
                 }
             },
             {
@@ -23,7 +24,8 @@ let rearrangedPlayer = [
                     width: "33%",
                     justifyContent: "center",
                     filter: "invert(100%)",
-                    opacity: "0.4",
+                    opacity: "0.9",
+                    color: '#ffffff'
                 }
             },
             {
@@ -32,7 +34,7 @@ let rearrangedPlayer = [
                     width: "33%",
                     justifyContent: "center",
                     filter: "invert(100%)",
-                    opacity: "0.4",
+                    opacity: "0.8",
 
                 }
             }
@@ -46,16 +48,31 @@ let rearrangedPlayer = [
                 style: {
                     width: "100%",
                     justifyContent: "center",
-                    marginTop: "5%",
-                    color: "#787e84",
+                    marginTop: "2%",
+                    color: "rgb(204 204 204)",
                     paddingLeft: "auto",
                     paddingRight: "auto",
 
                 }
             },
+        ]
+    },
+    {
+        className: "volume",
+        innerComponents: [
+            {
+                type: "volume",
+                style: {
+                    width: "100%",
+                    justifyContent: "center",
+                    filter: "invert(100%)",
+                    opacity: "1",
+                }
+            }
 
         ]
     }
+
 ];
 
 let playlist = [
@@ -65,7 +82,7 @@ let playlist = [
         artist: "Fabien Coll"
     },
     {
-        src: "ost.mp3",
+        src: "sound/ost.mp3",
         title: "Opening",
         artist: "Fabien Coll"
     }
