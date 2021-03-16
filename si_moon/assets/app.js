@@ -15,7 +15,6 @@ import theme from "./styles/theme";
 import Services from "./pages/Services/Services";
 import './styles/queries.css'
 
-
 console.log("Hello You, C'est parti pour du code !!");
 
 const App = () => {

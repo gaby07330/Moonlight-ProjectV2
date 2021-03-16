@@ -6,25 +6,24 @@ import ProjetCulturel from './SousPage/projetCulturel';
 import SonLumiere from './SousPage/sonLumiere';
 import Education from './SousPage/education';
 
+
 function Services() {
 
 
     return (
 
-
         <section className="strips">
 
             <ProjetCulturel/>
-
             <SonLumiere/>
-
             <Education/>
 
             <i className="fa fa-close strip__close"> </i>
-        </section>
 
+        </section>
 
     );
 }
+
 
 export default Services;

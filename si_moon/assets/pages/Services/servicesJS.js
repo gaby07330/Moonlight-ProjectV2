@@ -1,4 +1,7 @@
-$(window).load(function () {
+$(window).click(function () {
+
+
+    console.log("module JS chargé");
 
     const Expand = (function () {
         const tile = $('.strips__strip');

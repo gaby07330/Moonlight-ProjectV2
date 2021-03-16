@@ -2,7 +2,10 @@ import React from 'react';
 import '../projet.css';
 import logo from '../../../images/logoMoon.gif'
 
+
 function ProjetCulturel(props) {
+
+
     return (
 
         <article className="strips__strip">
