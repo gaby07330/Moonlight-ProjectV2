@@ -1,0 +1,597 @@
+/* ========================================================   QUERY PAGE SERVICES*/
+
+@media (min-width: 700px) and (max-width: 800px) {
+    .strips__strip {
+        margin-left: 8.5%;
+    }
+
+    .strips__strip:nth-child(1) {
+        left: 3vw;
+    }
+
+    .strips__strip:nth-child(2) {
+        left: 32.5vw;
+    }
+
+    .strips__strip:nth-child(3) {
+        left: 62vw;
+    }
+
+    .strip__title {
+        padding: 8px;
+    }
+
+    [class*="circle-"] {
+        height: 55%;
+        width: 59%;
+        margin-top: 8%;
+    }
+
+    .subtitle1 {
+        font-size: 12px;
+        margin-top: 21%;
+    }
+
+    .subtitle2 {
+        font-size: 12px;
+        margin-top: 49%;
+        margin-left: 5%;
+    }
+
+    [class*="subcircle"][class*="left"] > label {
+        left: -12%;
+        margin-top: -36%;
+    }
+
+    .subtitle3 {
+        font-size: 12px;
+        margin-top: -34%;
+        margin-left: 27%;
+    }
+
+    .title3 {
+        margin-left: -38%;
+        margin-top: -87%;
+    }
+
+    .imgLogoProjet {
+        width: 37px;
+        margin-left: -35%;
+        margin-top: 38%;
+    }
+
+    /*EO CERCLES*/
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+    .h1Services {
+        font-size: 30px !important;
+    }
+
+    /*BANDEAU AVANT OUVERTURE*/
+    .strips__strip {
+        margin-left: 8.5%;
+    }
+
+    .strips__strip:nth-child(1) {
+        left: 3vw;
+    }
+
+    .strips__strip:nth-child(2) {
+        left: 32.5vw;
+    }
+
+    .strips__strip:nth-child(3) {
+        left: 62vw;
+    }
+
+    .strip__title {
+        padding: 8px;
+    }
+
+    /*EO BANDEAU AVANT OUVERTURE*/
+    /*CERCLES*/
+    [class*="circle-"] {
+        height: 55%;
+        width: 59%;
+        margin-top: 8%;
+    }
+
+    .subtitle1 {
+        font-size: 12px;
+        margin-top: 21%;
+    }
+
+    .subtitle2 {
+        font-size: 12px;
+        margin-top: 49%;
+        margin-left: 5%;
+    }
+
+    [class*="subcircle"][class*="left"] > label {
+        left: -12%;
+        margin-top: -36%;
+    }
+
+    .subtitle3 {
+        font-size: 12px;
+        margin-top: -34%;
+        margin-left: 27%;
+    }
+
+    .title3 {
+        margin-left: -38%;
+        margin-top: -87%;
+    }
+
+    .imgLogoProjet {
+        width: 37px;
+        margin-left: -35%;
+        margin-top: 38%;
+    }
+
+    .imgLogo {
+        margin-top: 5%;
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+    .strips__strip {
+        margin-left: 10%;
+    }
+
+    .strips__strip:nth-child(1) {
+        left: 3vw;
+    }
+
+    .strips__strip:nth-child(2) {
+        left: 32.5vw;
+    }
+
+    .strips__strip:nth-child(3) {
+        left: 62vw;
+    }
+
+    .strip__title {
+        padding: 8px;
+    }
+
+    .h1Services {
+        font-size: 30px !important;
+    }
+
+    .subtitle1 {
+        font-size: 12px;
+        margin-top: 32%;
+    }
+
+    .subtitle2 {
+        font-size: 12px;
+        margin-left: 5%;
+    }
+
+    [class*="subcircle"][class*="left"] {
+        top: 53%;
+        left: 30%;
+        margin-top: -12.73px;
+    }
+
+    .subtitle3 {
+        font-size: 12px;
+        margin-top: 18%;
+        margin-left: 20%;
+    }
+
+    .title3 {
+        margin-left: -38%;
+        margin-top: -87%;
+    }
+
+    .imgLogo {
+        margin-top: 5%;
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+    .imgLogo {
+        margin-left: -55%;
+    }
+
+    .h1Services {
+        font-size: 35px !important;
+    }
+
+    .subtitle1 {
+        font-size: 12px;
+        margin-top: 32%;
+    }
+
+    .subtitle2 {
+        font-size: 12px;
+        margin-left: 5%;
+    }
+
+    [class*="subcircle"][class*="left"] {
+        top: 53%;
+        left: 30%;
+        margin-top: -12.73px;
+    }
+
+    .subtitle3 {
+        font-size: 12px;
+        margin-top: 18%;
+        margin-left: 20%;
+    }
+
+    .title3 {
+        margin-left: -38%;
+        margin-top: -73%;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+    .imgLogo {
+        margin-left: -47%;
+    }
+
+    .subtitle1 {
+        font-size: 12px;
+        margin-top: 32%;
+    }
+
+    .subtitle2 {
+        font-size: 12px;
+        margin-left: 5%;
+    }
+
+    [class*="subcircle"][class*="left"] {
+        top: 53%;
+        left: 30%;
+        margin-top: -12.73px;
+    }
+
+    .subtitle3 {
+        font-size: 12px;
+        margin-top: 18%;
+        margin-left: 20%;
+    }
+
+    .title3 {
+        margin-left: -38%;
+        margin-top: -73%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .imgLogo {
+        margin-left: -32%;
+        width: 130px !important;
+        height: 130px !important;
+    }
+
+    .subtitle1 {
+        font-size: 12px;
+        margin-top: 32%;
+    }
+
+    .subtitle2 {
+        font-size: 12px;
+        margin-left: 5%;
+    }
+
+    [class*="subcircle"][class*="left"] {
+        top: 53%;
+        left: 30%;
+        margin-top: -12.73px;
+    }
+
+    .subtitle3 {
+        font-size: 12px;
+        margin-top: 18%;
+        margin-left: 20%;
+    }
+
+    .title3 {
+        margin-left: -38%;
+        margin-top: -73%;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+    .imgLogo {
+        margin-left: -36%;
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    .subtitle1 {
+        font-size: 12px;
+        margin-top: 32%;
+    }
+
+    .subtitle2 {
+        font-size: 12px;
+        margin-left: 5%;
+    }
+
+    [class*="subcircle"][class*="left"] {
+        top: 53%;
+        left: 30%;
+        margin-top: -12.73px;
+    }
+
+    .subtitle3 {
+        font-size: 12px;
+        margin-top: 18%;
+        margin-left: 20%;
+    }
+
+    .title3 {
+        margin-left: -38%;
+        margin-top: -73%;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1500px) {
+    .imgLogo {
+        margin-left: -40%;
+        width: 160px !important;
+        height: 160px !important;
+    }
+
+    .subtitle1 {
+        font-size: 12px;
+        margin-top: 32%;
+    }
+
+    .subtitle2 {
+        font-size: 12px;
+        margin-left: 5%;
+    }
+
+    [class*="subcircle"][class*="left"] {
+        top: 53%;
+        left: 30%;
+        margin-top: -12.73px;
+    }
+
+    .subtitle3 {
+        font-size: 12px;
+        margin-top: 18%;
+        margin-left: 20%;
+    }
+
+    .title3 {
+        margin-left: -38%;
+        margin-top: -73%;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 1600px) {
+    .imgLogo {
+        margin-left: -37%;
+    }
+
+    .subtitle1 {
+        font-size: 12px;
+        margin-top: 32%;
+    }
+
+    .subtitle2 {
+        font-size: 12px;
+        margin-left: 5%;
+    }
+
+    [class*="subcircle"][class*="left"] {
+        top: 53%;
+        left: 30%;
+        margin-top: -12.73px;
+    }
+
+    .subtitle3 {
+        font-size: 12px;
+        margin-top: 18%;
+        margin-left: 20%;
+    }
+
+    .title3 {
+        margin-left: -38%;
+        margin-top: -73%;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1700px) {
+    .imgLogo {
+        margin-left: -35%;
+    }
+
+    .subtitle1 {
+        font-size: 12px;
+        margin-top: 32%;
+    }
+
+    .subtitle2 {
+        font-size: 12px;
+        margin-left: 5%;
+    }
+
+    [class*="subcircle"][class*="left"] {
+        top: 53%;
+        left: 30%;
+        margin-top: -12.73px;
+    }
+
+    .subtitle3 {
+        font-size: 12px;
+        margin-top: 18%;
+        margin-left: 20%;
+    }
+
+    .title3 {
+        margin-left: -38%;
+        margin-top: -73%;
+    }
+
+}
+
+@media (min-width: 1700px) and (max-width: 2000px) {
+    .subtitle1 {
+        font-size: 12px;
+        margin-top: 32%;
+    }
+
+    .subtitle2 {
+        font-size: 12px;
+        margin-left: 5%;
+    }
+
+    [class*="subcircle"][class*="left"] {
+        top: 53%;
+        left: 30%;
+        margin-top: -12.73px;
+    }
+
+    .subtitle3 {
+        font-size: 12px;
+        margin-top: 18%;
+        margin-left: 20%;
+    }
+
+    .title3 {
+        margin-left: -38%;
+        margin-top: -73%;
+    }
+
+    .imgLogo {
+        margin-left: -31%;
+    }
+}
+
+@media (min-width: 2000px) {
+    .subtitle1 {
+        font-size: 12px;
+        margin-top: 32%;
+    }
+
+    .subtitle2 {
+        font-size: 12px;
+        margin-left: 5%;
+    }
+
+    [class*="subcircle"][class*="left"] {
+        top: 53%;
+        left: 30%;
+        margin-top: -12.73px;
+    }
+
+    .subtitle3 {
+        font-size: 12px;
+        margin-top: 18%;
+        margin-left: 20%;
+    }
+
+    .title3 {
+        margin-left: -38%;
+        margin-top: -73%;
+    }
+}
+
+/* ==============================================================   QUERY H2 */
+
+@media (max-width: 500px) {
+    .rowH2 {
+        margin-top: -117.2%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+    .rowH2 {
+        margin-top: -90.2%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+    .rowH2 {
+        margin-top: -88.2%;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+    .rowH2 {
+        margin-top: -76.2%;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+    .rowH2 {
+        margin-top: -58.2%;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+    .rowH2 {
+        margin-top: -31.2%;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+    .rowH2 {
+        margin-top: -26.2%;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+    .rowH2 {
+        margin-top: -24.2%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+    .rowH2 {
+        margin-top: -21.2%;
+    }
+}
+
+@media (min-width: 1300px) and (max-width: 1400px) {
+    .rowH2 {
+        margin-top: -20.2%;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1500px) {
+    .rowH2 {
+        margin-top: -15.2%;
+    }
+}
+
+@media (min-width: 1500px) and (max-width: 1600px) {
+    .rowH2 {
+        margin-top: -14.2%;
+    }
+}
+
+@media (min-width: 1600px) and (max-width: 1700px) {
+    .rowH2 {
+        margin-top: -13.2%;
+    }
+}
+
+@media (min-width: 1700px) and (max-width: 2000px) {
+    .rowH2 {
+        margin-top: -13.1%;
+    }
+}
+
+@media (min-width: 2000px) {
+    .rowH2 {
+        margin-top: -13.2%;
+    }
+}

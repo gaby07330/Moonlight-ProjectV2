@@ -1,0 +1,144 @@
+@media screen and (min-width: 400px) {
+    .hidden-xs {
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    [class*="center-right"] {
+        top: 52%;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    [class*="center-left"] {
+        top: 52%;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    [class*="bottom"] > label {
+        bottom: 23%;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    [class*="bottom"] > label {
+        bottom: 24%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    [class*="bottom"] > label {
+        bottom: 25%;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    [class*="top"] > label {
+        top: 23%;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    [class*="top"] > label {
+        top: 24%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    [class*="top"] > label {
+        top: 25%;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .title {
+        font-size: 15px;
+    }
+
+    .title1 {
+        font-size: 17px;
+        min-width: 100px;
+    }
+
+    .title2 {
+        font-size: 17px;
+    }
+
+    .title3 {
+        font-size: 15px;
+        margin-top: -70%;
+    }
+
+    .subtitle {
+        font-size: 8px;
+        margin-top: -7%;
+        margin-left: 36%;
+    }
+
+    .subtitle1 {
+        font-size: 8px;
+        margin-top: -7%;
+        margin-left: 36%;
+    }
+
+    .subtitle3 {
+        font-size: 8px;
+        margin-top: -1%;
+        margin-left: -3%;
+    }
+
+    .imgLogoProjet {
+        visibility: hidden;
+    }
+
+    [class*="circle-"] {
+        height: 40%;
+        width: 40%;
+        min-height: 178.2px;
+        min-width: 178.2px;
+        max-height: 360px;
+        max-width: 360px;
+        border-radius: 50%;
+        position: absolute;
+        z-index: 1;
+    }
+
+    [class*="center-x"] {
+        top: 34%
+    }
+
+    .venn-diagram-container > [class*="circle"]:nth-child(1):hover {
+        background: rgba(255, 79, 76, 0.95);
+        z-index: 1;
+    }
+
+    .venn-diagram-container > [class*="circle"]:nth-child(2):hover {
+        background: rgba(198, 76, 255, 0.95);
+        z-index: 1;
+    }
+
+    .venn-diagram-container > [class*="circle"]:nth-child(3):hover {
+        background: rgba(76, 192, 255, 0.95);
+        z-index: 1;
+    }
+
+    .strips__strip:nth-child(1) {
+        width: 110%;
+        /*left: -7% !important;*/
+    }
+
+    .strips__strip:nth-child(2) {
+        left: 27px;
+    }
+
+    .strips__strip:nth-child(3) {
+        left: 27px;
+    }
+
+    .h1 {
+        font-size: 20px;
+    }
+
+}

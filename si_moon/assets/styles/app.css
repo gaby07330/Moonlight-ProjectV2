@@ -26,6 +26,13 @@ h1 {
     .moonpadding {
         padding-left: 15%;
     }
+
+    .imgLogo {
+        width: 110px !important;
+        height: 110px !important;
+        margin-left: -5%;
+        margin-bottom: 10%;
+    }
 }
 
 @media all and (min-width: 994px) and (max-width: 1200px) {

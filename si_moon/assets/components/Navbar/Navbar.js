@@ -1,6 +1,9 @@
 import React from "react";
+import {Link as RouterLink} from 'react-router-dom';
+import Link from '@material-ui/core/Link';
 import "./Navbar.css";
 import "./NavbarJS";
+import '../../styles/links.css';
 
 function Navbar() {
 
@@ -15,13 +18,43 @@ function Navbar() {
                 </div>
                 <div className="menu-inner">
 
-                    <ul>
-                        <li>Menu Item</li>
-                        <li>Menu Item</li>
-                        <li>Menu Item</li>
-                        <li>Menu Item</li>
-                        <li>Menu Item</li>
-                        <li>Menu Item</li>
+                    <ul className="menuSite">
+                        <li>
+                            <Link className='linkStyle pt-3' component={RouterLink} to="/">
+                                About
+                            </Link>
+                        </li>
+                        <li>
+                            <Link className='linkStyle pt-3' component={RouterLink} to="/">
+                                Services
+                            </Link>
+                        </li>
+                        <li>
+                            <Link className='linkStyle pt-3' component={RouterLink} to="/">
+                                Artistes
+                            </Link>
+                        </li>
+                        <li>
+                            <Link className='linkStyle pt-3' component={RouterLink} to="/">
+                                Réalisations
+                            </Link>
+                        </li>
+                        <li>
+                            <Link className='linkStyle pt-3' component={RouterLink} to="/">
+                                Social Networks
+                            </Link>
+                        </li>
+                        <li>
+                            <Link className='linkStyle pt-3' component={RouterLink} to="/">
+                                Partenaires
+                            </Link>
+                        </li>
+                        <li>
+                            <Link className='linkStyle pt-3' component={RouterLink} to="/">
+                                Contact
+                            </Link>
+                        </li>
+
                     </ul>
                 </div>
 

@@ -1,0 +1,13 @@
+.linkStyle {
+    font-size: 20px !important;
+}
+
+.MuiTypography-colorPrimary {
+    color: #ff9800 !important;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+}
+
+.MuiLink-underlineHover:hover {
+    text-decoration: underline;
+    color: white !important;
+}

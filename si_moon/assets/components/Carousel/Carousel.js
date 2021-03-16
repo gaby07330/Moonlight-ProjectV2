@@ -3,6 +3,7 @@ import './css/demo.css';
 import './css/style2.css';
 import './css/queries.css'
 import AudioPlayerPage from "../Lecteur/AudioPlayer";
+import '../Carousel/css/queryH2.css'
 
 const CarouselHome = () => {
     return (
@@ -31,12 +32,7 @@ const CarouselHome = () => {
                 <header>
 
 
-                    <div className="row">
-                        <h2 className="changeColor1 h2Flottant">
-                            Projets culturels et événementiels | Son, Lumières & Vidéo | Éducation artistique &
-                            Culturelle
-                        </h2>
-                    </div>
+
                     <div className="row">
 
                         <div
@@ -51,6 +47,12 @@ const CarouselHome = () => {
                         </div>
                     </div>
                 </header>
+                <div className="row rowH2">
+                    <h2 className="changeColor1 h2Flottant">
+                        Projets culturels et événementiels | Son, Lumières & Vidéo | Éducation artistique &
+                        Culturelle
+                    </h2>
+                </div>
             </div>
         </div>
 

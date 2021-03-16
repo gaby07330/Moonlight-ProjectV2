@@ -8,20 +8,22 @@ import "./styles/app.css";
 import Accueil from "./pages/accueil/Accueil";
 import Navbar from "./components/Navbar/Navbar";
 import logo from "./images/logoMoon.gif";
-
 import 'imagesloaded/imagesloaded.pkgd.min';
-import AudioPlayerPage from "./components/Lecteur/AudioPlayer";
+import About from "./pages/About/About";
+import {ThemeProvider as MuiThemeProvider} from '@material-ui/core/styles';
+import theme from "./styles/theme";
+import Services from "./pages/Services/Services";
+import './styles/queries.css'
 
 
 console.log("Hello You, C'est parti pour du code !!");
 
 const App = () => {
-  return (
-      <HashRouter>
-        <Navbar/>
-        +
-        <main className="container-fluid">
-          <div className="row">
+    return (
+        <HashRouter>
+            <Navbar/>
+            <main className="container-fluid">
+                <div className="row">
             <div className="  col-lg-3 col-xl-2 d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex
           justify-content-center order-1 justify-content-sm-center order-sm-1 justify-content-md-center
           order-md-1 justify-content-lg-start order-lg-1 justify-content-xl-start order-xl-1 pt-4 moonpadding"
@@ -31,10 +33,13 @@ const App = () => {
             <div
                 className="col-12 col-sm-12 col-md-12 col-lg-9 col-xl-10 d-md-flex
                 order-3 order-sm-2 order-md-2 order-lg-2 order-xl-2 moonAjust">
-              <Switch>
-                <Route path="/lec" component={AudioPlayerPage}/>
-                <Route path="/" component={Accueil}/>
-              </Switch>
+                <MuiThemeProvider theme={theme}>
+                    <Switch>
+                        <Route path="/services" component={Services}/>
+                        <Route path="/about" component={About}/>
+                        <Route path="/" component={Accueil}/>
+                    </Switch>
+                </MuiThemeProvider>
             </div>
             <div
                 className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 d-md-flex order-4
@@ -43,11 +48,8 @@ const App = () => {
             <div
                 className="col-md-12 col-lg-8 col-xl-9 d-md-flex order-4 order-sm-3
                 order-md-4 order-lg-4 order-xl-4">
-
-
             </div>
           </div>
-
         </main>
       </HashRouter>
   );
