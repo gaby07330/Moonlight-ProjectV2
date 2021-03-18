@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from "../../../../images/logoMoon.gif";
 import './SonLumiere.css';
+import './queries_SonLumiereVideo.css'
 
 function SonLumiere(props) {
     return (
@@ -17,7 +18,7 @@ function SonLumiere(props) {
                     <div className="venn-diagram-container">
                         <div className="circle-top-left">
                             <label>
-                                <span className="title1">Illumination monumentale</span>
+                                <span className="title1 title1Son">Illumination monumentale</span>
                             </label>
                         </div>
                         <div className="circle-top-right">
@@ -37,14 +38,14 @@ function SonLumiere(props) {
                                 <span className="subtitle1 sonSubTitle1">Mapping</span>
                             </label>
                         </div>
-                        <div className="subcircle-center-left2">
+                        <div className="subcircle-center-left2 subcircle-center-left">
                             <label>
-                                <span className=" sonsubtitle2 subtitle2">Captation vidéo</span>
+                                <span className=" sonsubtitle subtitle2">Captation vidéo</span>
                             </label>
                         </div>
                         <div className="subcircle-center-right">
                             <label>
-                                <span className="  subtitle3">ViJing</span>
+                                <span className="subtitle3Son  subtitle3">ViJing</span>
                             </label>
                         </div>
                         <div className="subsubcircle-center-x-y">

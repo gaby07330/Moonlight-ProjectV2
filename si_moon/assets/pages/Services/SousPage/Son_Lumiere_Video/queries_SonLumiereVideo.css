@@ -1,0 +1,129 @@
+@media (min-width: 300px) and (max-width: 400px) {
+    .subcircle-center-left2 {
+        margin-top: 25%;
+        margin-left: -2%;
+    }
+
+    .sonTitle2 {
+        margin-left: -194%;
+        margin-top: 25%;
+    }
+
+    .sonTitle4 {
+        margin-left: -107% !important;
+        font-size: 22px;
+    }
+
+    .studio {
+        margin-left: -50%;
+    }
+
+    .sonSubTitle1 {
+        visibility: hidden;
+    }
+
+    .subcircle-center-left2 {
+        visibility: hidden;
+    }
+
+    .subtitle3Son {
+        visibility: hidden;
+    }
+
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+    .subcircle-center-left2 {
+        margin-top: 25%;
+        margin-left: -2%;
+    }
+
+    .sonTitle2 {
+        margin-left: -130%;
+        margin-top: 25%;
+        min-width: 150px;
+    }
+
+    .sonTitle4 {
+        margin-left: -107% !important;
+        font-size: 22px;
+    }
+
+    .studio {
+        margin-left: -50%;
+    }
+
+    .sonSubTitle1 {
+        visibility: hidden;
+    }
+
+    .subcircle-center-left2 {
+        visibility: hidden;
+    }
+
+    .subtitle3Son {
+        visibility: hidden;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+    .subcircle-center-left2 {
+        margin-top: 25%;
+        margin-left: -2%;
+    }
+
+    .sonTitle2 {
+        margin-left: -92%;
+        margin-top: 25%;
+        min-width: 150px;
+    }
+
+    .sonTitle4 {
+        margin-left: -99% !important;
+        font-size: 22px;
+    }
+
+    .studio {
+        margin-left: -31%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+    .subcircle-center-left2 {
+        margin-top: 6% !important;
+    }
+
+    .title1Son {
+        min-width: 149px;
+    }
+
+    .sonTitle2 {
+        margin-left: -92%;
+        margin-top: 25%;
+    }
+
+    .sonTitle4 {
+        margin-left: -96% !important;
+    }
+
+    .studio {
+        margin-left: -24%;
+    }
+
+    .subtitle3Son {
+        margin-left: 40%;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 800px) {
+    .subcircle-center-left2 {
+        margin-top: 7%;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+    .subcircle-center-left2 {
+        margin-top: 7%;
+    }
+}
