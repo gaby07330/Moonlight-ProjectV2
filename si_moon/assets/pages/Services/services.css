@@ -74,6 +74,301 @@
     animation-delay: 0.5s;
 }
 
+/*@import "compass/css3";*/
+
+.h1Projet {
+    font-size: 40px;
+}
+
+.circle-top-right {
+    z-index: 2
+}
+
+.venn-diagram-container {
+    width: 100%;
+    height: 100vw;
+    min-width: 297px;
+    min-height: 297px;
+    max-width: 600px;
+    max-height: 600px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+
+}
+
+.venn-diagram-container * {
+    transition: 0.5s all ease-in-out;
+    fill: rgba(255, 255, 255, 0.75);
+}
+
+.venn-diagram-container > [class*="circle"]:nth-child(1) {
+    background: rgba(255, 79, 76, 0.75);
+}
+
+.venn-diagram-container > [class*="circle"]:nth-child(1):hover {
+    background: rgba(255, 79, 76, 0.95);
+    z-index: 2;
+}
+
+.venn-diagram-container > [class*="circle"]:nth-child(2) {
+    background: rgba(198, 76, 255, 0.75);
+}
+
+.venn-diagram-container > [class*="circle"]:nth-child(2):hover {
+    background: rgba(198, 76, 255, 0.95);
+    z-index: 2;
+}
+
+.venn-diagram-container > [class*="circle"]:nth-child(3) {
+    background: rgba(76, 192, 255, 0.60);
+}
+
+.venn-diagram-container > [class*="circle"]:nth-child(3):hover {
+    background: rgba(76, 192, 255, 0.95);
+    z-index: 2 !important;
+}
+
+[class*="circle-"] {
+    height: 60%;
+    width: 60%;
+    min-height: 178.2px;
+    min-width: 178.2px;
+    max-height: 360px;
+    max-width: 360px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
+
+[class*="circle-"]:hover ~ [class*="circle-"] {
+    opacity: 0.95;
+}
+
+[class*="circle-"]:hover ~ [class*="circle-"][class*="subcircle-"] {
+    opacity: 1;
+}
+
+[class*="circle-"] label {
+    position: absolute;
+    display: block;
+    text-align: center;
+    width: 36%;
+}
+
+[class*="subcircle"] {
+    width: 15%;
+    height: 15%;
+    min-width: 53.46px;
+    min-height: 53.46px;
+    max-width: 108px;
+    max-height: 108px;
+    z-index: 3;
+}
+
+[class*="subcircle"] > label {
+    position: relative;
+    width: 100%;
+}
+
+[class*="subcircle"][class*="top"] > label {
+    top: auto;
+}
+
+[class*="subcircle"][class*="right"] > label {
+    right: auto;
+}
+
+[class*="subcircle"][class*="bottom"] > label {
+    bottom: auto;
+}
+
+[class*="subcircle"][class*="left"] > label {
+    left: auto;
+}
+
+[class*="subcircle"][class*="top"] {
+    top: 6%;
+}
+
+[class*="subsubcircle"] {
+    width: 4%;
+    height: 4%;
+    min-width: 16.038px;
+    min-height: 16.038px;
+    max-width: 32.4px;
+    max-height: 32.4px;
+    z-index: 4;
+}
+
+.imgLogoProjet {
+    width: 45px;
+    margin-left: -48%;
+    margin-top: -54%;
+    filter: drop-shadow(2px 4px 2px black);
+}
+
+.title {
+    display: block;
+    min-width: 200px;
+}
+
+.title1 {
+    display: block;
+    min-width: 250px;
+    line-height: initial;
+    float: left;
+    text-align: left;
+    font-size: 32px;
+    margin-top: 26%;
+    color: whitesmoke !important;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 3% !important;
+}
+
+.title2 {
+    display: block;
+    font-size: 34px;
+    min-width: 200px;
+    line-height: initial;
+    float: left;
+    text-align: left;
+    margin-left: -24%;
+    margin-top: 29%;
+    color: whitesmoke !important;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title3 {
+    display: block;
+    font-size: 32px;
+    min-width: 376px;
+    line-height: initial;
+    float: left;
+    text-align: left;
+    margin-left: -34%;
+    margin-top: -38%;
+    color: whitesmoke !important;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.subtitle {
+    font-size: 8px;
+    float: left;
+    margin-top: 25%;
+    color: #f5f5f5bf !important;
+}
+
+.subtitle1 {
+    font-size: 8px;
+    float: left;
+    color: #f5f5f5bf !important;
+}
+
+.subtitle3 {
+    font-size: 12px;
+    float: left;
+    margin-top: 49%;
+    color: #f5f5f5bf !important;
+    margin-left: 5%;
+}
+
+
+[class*="top"] {
+    top: 0;
+}
+
+[class*="top"] > label {
+    top: 22%;
+}
+
+
+[class*="left"] {
+    left: 0;
+}
+
+[class*="left"] > label {
+    left: 12%;
+}
+
+[class*="right"] {
+    right: 0;
+}
+
+[class*="right"] > label {
+    right: 12%;
+}
+
+[class*="bottom"] {
+    bottom: 0;
+}
+
+[class*="bottom"] > label {
+    bottom: 22%;
+}
+
+
+[class*="center-left"] {
+    top: 53%;
+    left: 30%;
+    margin-top: -26.73px;
+}
+
+
+[class*="center-right"] {
+    top: 53%;
+    right: 30%;
+    margin-top: -26.73px;
+}
+
+
+[class*="center-x"] {
+    left: 50%;
+    margin-left: -30%;
+}
+
+[class*="center-x"][class*="subcircle"] {
+    margin-left: -7.5%;
+}
+
+[class*="center-x"][class*="subcircle"] > label {
+    top: auto;
+    left: auto;
+    margin-left: 0;
+}
+
+[class*="center-x"] > label {
+    left: 50%;
+    margin-left: -18.1818181818%;
+}
+
+[class*="center-x-y"] {
+    top: 50%;
+    left: 50%;
+}
+
+[class*="center-x-y"][class*="subsubcircle"] {
+    margin-top: -7%;
+    margin-left: -2%;
+}
+
+[class*="center-x-y"][class*="subsubcircle"] > label {
+    top: auto;
+    left: auto;
+    margin-left: 0;
+}
+
+.hidden-xs {
+    display: none;
+}
+
+
 @media screen and (max-width: 760px) {
     .strips__strip {
         min-height: 20vh;

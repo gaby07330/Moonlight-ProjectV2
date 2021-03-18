@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64e2df4f-393c-435d-9370-b2fd04e3228d" name="Default Changelist" comment="Ajout Page Services/Projet Culturels&#10;+ Media Queries">
+    <list default="true" id="64e2df4f-393c-435d-9370-b2fd04e3228d" name="Default Changelist" comment="Re Factorisation des queries sur [Projet Culturel]">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_03_2021_17_28_[Default_Changelist]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_16_03_2021_17_28__Default_Changelist_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/si_moon/assets/pages/Services/SousPage/Son_Lumiere_Video/SonLumiere.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/si_moon/assets/pages/Services/SousPage/Son_Lumiere_Video/queries_SonLumiereVideo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/si_moon/assets/pages/Services/SousPage/Son_Lumiere_Video/sonLumiere.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/si_moon/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/assets/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/si_moon/assets/components/Navbar/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/assets/components/Navbar/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/si_moon/assets/components/Carousel/css/queryH2.css" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/assets/components/Carousel/css/queryH2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/si_moon/assets/pages/Services/Services.js" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/assets/pages/Services/Services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/si_moon/assets/pages/Services/SousPage/projetCulturel.js" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/assets/pages/Services/SousPage/projetCulturel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/si_moon/assets/pages/Services/servicesJS.js" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/assets/pages/Services/servicesJS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/si_moon/assets/pages/Services/SousPage/projetCulturel.js" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/assets/pages/Services/SousPage/Projet_Culturel/projetCulturel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/si_moon/assets/pages/Services/SousPage/sonLumiere.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/si_moon/assets/pages/Services/projet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/si_moon/assets/pages/Services/queries_services.css" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/assets/pages/Services/SousPage/Projet_Culturel/queries_projetCulturel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/si_moon/assets/pages/Services/services.css" beforeDir="false" afterPath="$PROJECT_DIR$/si_moon/assets/pages/Services/services.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/si_moon/assets/styles/queries.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +38,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -144,6 +154,9 @@
       <path value="$PROJECT_DIR$/si_moon/vendor/symfony/webpack-encore-bundle" />
     </include_path>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectId" id="1mQShFECsFEkIn9CA9flGX6RQsi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -174,10 +187,10 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/si_moon/assets/pages/Services" />
+      <recent name="$PROJECT_DIR$/si_moon/assets/pages/Services/SousPage/Son_Lumiere_Video" />
+      <recent name="$PROJECT_DIR$/si_moon/assets/pages/Services/SousPage/Projet_Culturel" />
       <recent name="$PROJECT_DIR$/si_moon/assets/components/Carousel/css" />
       <recent name="$PROJECT_DIR$/si_moon/public/sound" />
-      <recent name="$PROJECT_DIR$/si_moon/public" />
-      <recent name="$PROJECT_DIR$/si_moon/assets/components/Lecteur" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="false" transferred="true" />
@@ -207,7 +220,10 @@
       <workItem from="1615800202032" duration="4516000" />
       <workItem from="1615807048401" duration="7679000" />
       <workItem from="1615817897355" duration="1659000" />
-      <workItem from="1615820825472" duration="26300000" />
+      <workItem from="1615820825472" duration="26731000" />
+      <workItem from="1615911848534" duration="273000" />
+      <workItem from="1616055558644" duration="57000" />
+      <workItem from="1616055640199" duration="14520000" />
     </task>
     <task id="LOCAL-00001" summary="First docker-compose (symfony / mysql / phpmyadmin)">
       <created>1609543522914</created>
@@ -265,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615906088746</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Correction bug jquery/menu (windows.click)">
+      <created>1615911719830</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615911719830</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +330,10 @@
     <MESSAGE value="Intégration des media-queries + refonte du lecteur audio" />
     <MESSAGE value="Media Queries (V2)" />
     <MESSAGE value="Ajout Page Services/Projet Culturels&#10;+ Media Queries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout Page Services/Projet Culturels&#10;+ Media Queries" />
+    <MESSAGE value="Correction bug jquery/menu (windows.click)2" />
+    <MESSAGE value="Correction bug jquery/menu (windows.click)" />
+    <MESSAGE value="Re Factorisation des queries sur [Projet Culturel]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Re Factorisation des queries sur [Projet Culturel]" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

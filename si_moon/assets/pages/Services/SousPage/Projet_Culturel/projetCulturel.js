@@ -1,19 +1,14 @@
 import React from 'react';
-import '../projet.css';
-import logo from '../../../images/logoMoon.gif'
-
+import '../../services.css'
+import './queries_projetCulturel.css'
+import logo from '../../../../images/logoMoon.gif'
 
 function ProjetCulturel(props) {
 
-
     return (
-
         <article className="strips__strip">
             <div className="strip__content">
-
-
                 <h1 className="strip__title h1Services" data-name="Lorem">Projets Culturels & Événementiels</h1>
-
                 <div className="strip__inner-text">
                     <h1 className="h1Projet">Projets Culturels & Événementiels</h1>
                     <p>Le Moonlight Project vous propose l'organisation clef en main ou en collaboration avec vos
@@ -60,8 +55,6 @@ function ProjetCulturel(props) {
                         <a href="https://twitter.com/ettrics" target="_blank"><i className="fa fa-twitter"> </i></a>
                     </p>
                 </div>
-
-
             </div>
         </article>
 

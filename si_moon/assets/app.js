@@ -13,7 +13,6 @@ import About from "./pages/About/About";
 import {ThemeProvider as MuiThemeProvider} from '@material-ui/core/styles';
 import theme from "./styles/theme";
 import Services from "./pages/Services/Services";
-import './styles/queries.css'
 
 console.log("Hello You, C'est parti pour du code !!");
 

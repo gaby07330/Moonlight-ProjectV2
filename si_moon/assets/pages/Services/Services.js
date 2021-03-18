@@ -1,9 +1,9 @@
 import React from 'react';
 import './services.css'
-import './queries_services.css'
+import './SousPage/Projet_Culturel/queries_projetCulturel.css'
 import './servicesJS';
-import ProjetCulturel from './SousPage/projetCulturel';
-import SonLumiere from './SousPage/sonLumiere';
+import ProjetCulturel from './SousPage/Projet_Culturel/projetCulturel';
+import SonLumiere from './SousPage/Son_Lumiere_Video/sonLumiere';
 import Education from './SousPage/education';
 
 
